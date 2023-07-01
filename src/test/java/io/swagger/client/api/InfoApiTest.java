@@ -224,7 +224,7 @@ public class InfoApiTest {
     @Test
     public void symbolnameFutureGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        Integer derivMonth = null;
+        Integer derivMonth = 0;
         String futureCode = null;
         SymbolNameSuccess response = api.symbolnameFutureGet(X_API_KEY, derivMonth, futureCode);
 
@@ -241,7 +241,7 @@ public class InfoApiTest {
     @Test
     public void symbolnameOptionGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        Integer derivMonth = null;
+        Integer derivMonth = 0;
         String putOrCall = null;
         Integer strikePrice = null;
         SymbolNameSuccess response = api.symbolnameOptionGet(X_API_KEY, derivMonth, putOrCall, strikePrice);

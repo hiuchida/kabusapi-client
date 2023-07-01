@@ -47,6 +47,7 @@ public class OrderApiTest {
     @Test
     public void cancelorderPutTest() throws Exception {
         RequestCancelOrder body = new RequestCancelOrder();
+        body.orderId("orderId").password("xxxxxx");
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         OrderSuccess response = api.cancelorderPut(body, X_API_KEY);
 

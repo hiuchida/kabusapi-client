@@ -96,6 +96,9 @@ public class OrderApiTest {
     @Test
     public void sendorderPostTest() throws Exception {
         RequestSendOrder body = new RequestSendOrder();
+        body.password("xxxxxx").symbol("symbol").exchange(0).securityType(0).side("side");
+        body.cashMargin(0).delivType(0).accountType(0).qty(0).frontOrderType(0);
+        body.price(0.0).expireDay(0);
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         OrderSuccess response = api.sendorderPost(body, X_API_KEY);
 

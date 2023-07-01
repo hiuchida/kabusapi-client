@@ -52,7 +52,7 @@ public class InfoApiTest {
      */
     @Test
     public void apisoftlimitGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         ApiSoftLimitResponse response = api.apisoftlimitGet(X_API_KEY);
 
         // TODO: test validations
@@ -67,7 +67,7 @@ public class InfoApiTest {
      */
     @Test
     public void boardGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String symbol = null;
         BoardSuccess response = api.boardGet(X_API_KEY, symbol);
 
@@ -83,7 +83,7 @@ public class InfoApiTest {
      */
     @Test
     public void exchangeGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String symbol = null;
         ExchangeResponse response = api.exchangeGet(X_API_KEY, symbol);
 
@@ -99,7 +99,7 @@ public class InfoApiTest {
      */
     @Test
     public void marginpremiumGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String symbol = null;
         MarginPremiumResponse response = api.marginpremiumGet(X_API_KEY, symbol);
 
@@ -115,7 +115,7 @@ public class InfoApiTest {
      */
     @Test
     public void ordersGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String product = null;
         String id = null;
         String updtime = null;
@@ -138,7 +138,7 @@ public class InfoApiTest {
      */
     @Test
     public void positionsGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String product = null;
         String symbol = null;
         String side = null;
@@ -157,7 +157,7 @@ public class InfoApiTest {
      */
     @Test
     public void primaryExchangeGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String symbol = null;
         PrimaryExchangeResponse response = api.primaryExchangeGet(X_API_KEY, symbol);
 
@@ -173,7 +173,7 @@ public class InfoApiTest {
      */
     @Test
     public void rankingGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String type = null;
         String exchangeDivision = null;
         InlineResponse200 response = api.rankingGet(X_API_KEY, type, exchangeDivision);
@@ -190,7 +190,7 @@ public class InfoApiTest {
      */
     @Test
     public void regulationsGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String symbol = null;
         RegulationsResponse response = api.regulationsGet(X_API_KEY, symbol);
 
@@ -206,7 +206,7 @@ public class InfoApiTest {
      */
     @Test
     public void symbolGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String symbol = null;
         String addinfo = null;
         SymbolSuccess response = api.symbolGet(X_API_KEY, symbol, addinfo);
@@ -223,7 +223,7 @@ public class InfoApiTest {
      */
     @Test
     public void symbolnameFutureGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         Integer derivMonth = null;
         String futureCode = null;
         SymbolNameSuccess response = api.symbolnameFutureGet(X_API_KEY, derivMonth, futureCode);
@@ -240,7 +240,7 @@ public class InfoApiTest {
      */
     @Test
     public void symbolnameOptionGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         Integer derivMonth = null;
         String putOrCall = null;
         Integer strikePrice = null;

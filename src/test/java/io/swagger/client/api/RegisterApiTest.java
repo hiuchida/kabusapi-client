@@ -46,7 +46,7 @@ public class RegisterApiTest {
     @Test
     public void registerPutTest() throws Exception {
         RequestRegister body = null;
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         RegistSuccess response = api.registerPut(body, X_API_KEY);
 
         // TODO: test validations
@@ -61,7 +61,7 @@ public class RegisterApiTest {
      */
     @Test
     public void unregisterAllPutTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         UnregisterAllSuccess response = api.unregisterAllPut(X_API_KEY);
 
         // TODO: test validations
@@ -77,7 +77,7 @@ public class RegisterApiTest {
     @Test
     public void unregisterPutTest() throws Exception {
         RequestUnregister body = null;
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         RegistSuccess response = api.unregisterPut(body, X_API_KEY);
 
         // TODO: test validations

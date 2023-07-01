@@ -45,7 +45,7 @@ public class WalletApiTest {
      */
     @Test
     public void walletCashGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         WalletCashSuccess response = api.walletCashGet(X_API_KEY);
 
         // TODO: test validations
@@ -60,7 +60,7 @@ public class WalletApiTest {
      */
     @Test
     public void walletCashSymbolGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String symbol = null;
         WalletCashSuccess response = api.walletCashSymbolGet(X_API_KEY, symbol);
 
@@ -76,7 +76,7 @@ public class WalletApiTest {
      */
     @Test
     public void walletFutureGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         WalletFutureSuccess response = api.walletFutureGet(X_API_KEY);
 
         // TODO: test validations
@@ -91,7 +91,7 @@ public class WalletApiTest {
      */
     @Test
     public void walletFutureSymbolGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String symbol = null;
         WalletFutureSuccess response = api.walletFutureSymbolGet(X_API_KEY, symbol);
 
@@ -107,7 +107,7 @@ public class WalletApiTest {
      */
     @Test
     public void walletMarginGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         WalletMarginSuccess response = api.walletMarginGet(X_API_KEY);
 
         // TODO: test validations
@@ -122,7 +122,7 @@ public class WalletApiTest {
      */
     @Test
     public void walletMarginSymbolGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String symbol = null;
         WalletMarginSuccess response = api.walletMarginSymbolGet(X_API_KEY, symbol);
 
@@ -138,7 +138,7 @@ public class WalletApiTest {
      */
     @Test
     public void walletOptionGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         WalletOptionSuccess response = api.walletOptionGet(X_API_KEY);
 
         // TODO: test validations
@@ -153,7 +153,7 @@ public class WalletApiTest {
      */
     @Test
     public void walletOptionSymbolGetTest() throws Exception {
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String symbol = null;
         WalletOptionSuccess response = api.walletOptionSymbolGet(X_API_KEY, symbol);
 

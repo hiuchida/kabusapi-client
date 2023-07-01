@@ -47,7 +47,7 @@ public class OrderApiTest {
     @Test
     public void cancelorderPutTest() throws Exception {
         RequestCancelOrder body = null;
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         OrderSuccess response = api.cancelorderPut(body, X_API_KEY);
 
         // TODO: test validations
@@ -63,7 +63,7 @@ public class OrderApiTest {
     @Test
     public void sendoderFuturePostTest() throws Exception {
         RequestSendOrderDerivFuture body = null;
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         OrderSuccess response = api.sendoderFuturePost(body, X_API_KEY);
 
         // TODO: test validations
@@ -79,7 +79,7 @@ public class OrderApiTest {
     @Test
     public void sendorderOptionPostTest() throws Exception {
         RequestSendOrderDerivOption body = null;
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         OrderSuccess response = api.sendorderOptionPost(body, X_API_KEY);
 
         // TODO: test validations
@@ -95,7 +95,7 @@ public class OrderApiTest {
     @Test
     public void sendorderPostTest() throws Exception {
         RequestSendOrder body = null;
-        String X_API_KEY = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         OrderSuccess response = api.sendorderPost(body, X_API_KEY);
 
         // TODO: test validations

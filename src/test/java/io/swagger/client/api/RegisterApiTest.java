@@ -30,7 +30,7 @@ import java.util.Map;
 /**
  * API tests for RegisterApi
  */
-@Ignore
+//@Ignore
 public class RegisterApiTest {
 
     private final RegisterApi api = new RegisterApi();

@@ -30,7 +30,7 @@ import java.util.Map;
 /**
  * API tests for WalletApi
  */
-@Ignore
+//@Ignore
 public class WalletApiTest {
 
     private final WalletApi api = new WalletApi();

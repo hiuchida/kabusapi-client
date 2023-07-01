@@ -31,7 +31,7 @@ import java.util.Map;
 /**
  * API tests for OrderApi
  */
-@Ignore
+//@Ignore
 public class OrderApiTest {
 
     private final OrderApi api = new OrderApi();

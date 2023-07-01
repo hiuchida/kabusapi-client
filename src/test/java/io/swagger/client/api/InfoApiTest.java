@@ -37,7 +37,7 @@ import java.util.Map;
 /**
  * API tests for InfoApi
  */
-@Ignore
+//@Ignore
 public class InfoApiTest {
 
     private final InfoApi api = new InfoApi();

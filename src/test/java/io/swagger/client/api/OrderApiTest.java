@@ -64,6 +64,8 @@ public class OrderApiTest {
     @Test
     public void sendoderFuturePostTest() throws Exception {
         RequestSendOrderDerivFuture body = new RequestSendOrderDerivFuture();
+        body.password("xxxxxx").symbol("symbol").exchange(0).tradeType(0).timeInForce(0);
+        body.side("").qty(0).frontOrderType(0).price(0.0).expireDay(0);
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         OrderSuccess response = api.sendoderFuturePost(body, X_API_KEY);
 

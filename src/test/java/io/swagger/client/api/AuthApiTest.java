@@ -43,7 +43,7 @@ public class AuthApiTest {
      */
     @Test
     public void tokenPostTest() throws Exception {
-        RequestToken body = null;
+        RequestToken body = new RequestToken();
         TokenSuccess response = api.tokenPost(body);
 
         // TODO: test validations

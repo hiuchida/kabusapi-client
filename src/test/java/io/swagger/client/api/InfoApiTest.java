@@ -174,7 +174,7 @@ public class InfoApiTest {
     @Test
     public void rankingGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String type = null;
+        String type = "type";
         String exchangeDivision = null;
         InlineResponse200 response = api.rankingGet(X_API_KEY, type, exchangeDivision);
 

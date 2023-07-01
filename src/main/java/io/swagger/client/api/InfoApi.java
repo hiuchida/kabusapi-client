@@ -35,6 +35,7 @@ import io.swagger.client.model.MarginPremiumResponse;
 import io.swagger.client.model.OrdersSuccess;
 import io.swagger.client.model.PositionsSuccess;
 import io.swagger.client.model.PrimaryExchangeResponse;
+import io.swagger.client.model.RankingDefaultResponse;
 import io.swagger.client.model.RegulationsResponse;
 import io.swagger.client.model.SymbolNameSuccess;
 import io.swagger.client.model.SymbolSuccess;
@@ -1144,8 +1145,8 @@ public class InfoApi {
      * @return InlineResponse200
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public InlineResponse200 rankingGet(String X_API_KEY, String type, String exchangeDivision) throws ApiException {
-        ApiResponse<InlineResponse200> resp = rankingGetWithHttpInfo(X_API_KEY, type, exchangeDivision);
+    public RankingDefaultResponse rankingGet(String X_API_KEY, String type, String exchangeDivision) throws ApiException {
+        ApiResponse<RankingDefaultResponse> resp = rankingGetWithHttpInfo(X_API_KEY, type, exchangeDivision);
         return resp.getData();
     }
 
@@ -1158,9 +1159,9 @@ public class InfoApi {
      * @return ApiResponse&lt;InlineResponse200&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ApiResponse<InlineResponse200> rankingGetWithHttpInfo(String X_API_KEY, String type, String exchangeDivision) throws ApiException {
+    public ApiResponse<RankingDefaultResponse> rankingGetWithHttpInfo(String X_API_KEY, String type, String exchangeDivision) throws ApiException {
         com.squareup.okhttp.Call call = rankingGetValidateBeforeCall(X_API_KEY, type, exchangeDivision, null, null);
-        Type localVarReturnType = new TypeToken<InlineResponse200>(){}.getType();
+        Type localVarReturnType = new TypeToken<RankingDefaultResponse>(){}.getType();
         return apiClient.execute(call, localVarReturnType);
     }
 

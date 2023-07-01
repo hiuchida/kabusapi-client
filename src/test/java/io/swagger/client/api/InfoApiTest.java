@@ -21,6 +21,7 @@ import io.swagger.client.model.MarginPremiumResponse;
 import io.swagger.client.model.OrdersSuccess;
 import io.swagger.client.model.PositionsSuccess;
 import io.swagger.client.model.PrimaryExchangeResponse;
+import io.swagger.client.model.RankingDefaultResponse;
 import io.swagger.client.model.RegulationsResponse;
 import io.swagger.client.model.SymbolNameSuccess;
 import io.swagger.client.model.SymbolSuccess;
@@ -176,7 +177,7 @@ public class InfoApiTest {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String type = "type";
         String exchangeDivision = "exchangeDivision";
-        InlineResponse200 response = api.rankingGet(X_API_KEY, type, exchangeDivision);
+        RankingDefaultResponse response = api.rankingGet(X_API_KEY, type, exchangeDivision);
 
         // TODO: test validations
     }

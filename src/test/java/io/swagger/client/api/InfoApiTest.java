@@ -242,7 +242,7 @@ public class InfoApiTest {
     public void symbolnameOptionGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         Integer derivMonth = 0;
-        String putOrCall = null;
+        String putOrCall = "putOrCall";
         Integer strikePrice = null;
         SymbolNameSuccess response = api.symbolnameOptionGet(X_API_KEY, derivMonth, putOrCall, strikePrice);
 

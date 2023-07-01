@@ -61,7 +61,7 @@ public class WalletApiTest {
     @Test
     public void walletCashSymbolGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String symbol = null;
+        String symbol = "symbol";
         WalletCashSuccess response = api.walletCashSymbolGet(X_API_KEY, symbol);
 
         // TODO: test validations
@@ -92,7 +92,7 @@ public class WalletApiTest {
     @Test
     public void walletFutureSymbolGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String symbol = null;
+        String symbol = "symbol";
         WalletFutureSuccess response = api.walletFutureSymbolGet(X_API_KEY, symbol);
 
         // TODO: test validations
@@ -123,7 +123,7 @@ public class WalletApiTest {
     @Test
     public void walletMarginSymbolGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String symbol = null;
+        String symbol = "symbol";
         WalletMarginSuccess response = api.walletMarginSymbolGet(X_API_KEY, symbol);
 
         // TODO: test validations
@@ -154,7 +154,7 @@ public class WalletApiTest {
     @Test
     public void walletOptionSymbolGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String symbol = null;
+        String symbol = "symbol";
         WalletOptionSuccess response = api.walletOptionSymbolGet(X_API_KEY, symbol);
 
         // TODO: test validations

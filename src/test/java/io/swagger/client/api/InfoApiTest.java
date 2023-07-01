@@ -68,7 +68,7 @@ public class InfoApiTest {
     @Test
     public void boardGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String symbol = null;
+        String symbol = "symbol";
         BoardSuccess response = api.boardGet(X_API_KEY, symbol);
 
         // TODO: test validations
@@ -84,7 +84,7 @@ public class InfoApiTest {
     @Test
     public void exchangeGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String symbol = null;
+        String symbol = "symbol";
         ExchangeResponse response = api.exchangeGet(X_API_KEY, symbol);
 
         // TODO: test validations
@@ -100,7 +100,7 @@ public class InfoApiTest {
     @Test
     public void marginpremiumGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String symbol = null;
+        String symbol = "symbol";
         MarginPremiumResponse response = api.marginpremiumGet(X_API_KEY, symbol);
 
         // TODO: test validations
@@ -158,7 +158,7 @@ public class InfoApiTest {
     @Test
     public void primaryExchangeGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String symbol = null;
+        String symbol = "symbol";
         PrimaryExchangeResponse response = api.primaryExchangeGet(X_API_KEY, symbol);
 
         // TODO: test validations
@@ -191,7 +191,7 @@ public class InfoApiTest {
     @Test
     public void regulationsGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String symbol = null;
+        String symbol = "symbol";
         RegulationsResponse response = api.regulationsGet(X_API_KEY, symbol);
 
         // TODO: test validations
@@ -207,7 +207,7 @@ public class InfoApiTest {
     @Test
     public void symbolGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        String symbol = null;
+        String symbol = "symbol";
         String addinfo = null;
         SymbolSuccess response = api.symbolGet(X_API_KEY, symbol, addinfo);
 

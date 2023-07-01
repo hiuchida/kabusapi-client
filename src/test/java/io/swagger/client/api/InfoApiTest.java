@@ -243,7 +243,7 @@ public class InfoApiTest {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         Integer derivMonth = 0;
         String putOrCall = "putOrCall";
-        Integer strikePrice = null;
+        Integer strikePrice = 0;
         SymbolNameSuccess response = api.symbolnameOptionGet(X_API_KEY, derivMonth, putOrCall, strikePrice);
 
         // TODO: test validations

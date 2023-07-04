@@ -41,7 +41,7 @@ import io.swagger.client.model.BoardSuccessSell8;
 import io.swagger.client.model.BoardSuccessSell9;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.io.IOException;
-import org.threeten.bp.OffsetDateTime;
+import java.time.OffsetDateTime;
 /**
  * 下記にあるBIDとASKとは、トレーダー目線から見た場合の値であるため、BidPrice&#x3D;Sell1のPrice、AskPrice&#x3D;Buy1のPriceという数値となります。
  */

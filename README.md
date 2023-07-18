@@ -3,7 +3,7 @@ Duplicate java-client-generated in kabusapi_swagger so that a minimum of automat
 
 ## Requirements
 
-Building the WebSocket application requires:
+Building the API client library requires:
 1. Java 1.7+
 2. Maven
 

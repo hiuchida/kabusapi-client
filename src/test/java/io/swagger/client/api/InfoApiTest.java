@@ -260,11 +260,11 @@ public class InfoApiTest {
      */
     @Test
     public void symbolnameOptionMiniGetTest() throws Exception {
-        String X_API_KEY = null;
-        Integer derivMonth = null;
-        Integer derivWeekly = null;
-        String putOrCall = null;
-        Integer strikePrice = null;
+        String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        Integer derivMonth = 0;
+        Integer derivWeekly = 0;
+        String putOrCall = "putOrCall";
+        Integer strikePrice = 0;
         SymbolNameSuccess response = api.symbolnameOptionMiniGet(X_API_KEY, derivMonth, derivWeekly, putOrCall, strikePrice);
 
         // TODO: test validations

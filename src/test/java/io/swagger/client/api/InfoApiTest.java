@@ -245,7 +245,27 @@ public class InfoApiTest {
         Integer derivMonth = 0;
         String putOrCall = "putOrCall";
         Integer strikePrice = 0;
-        SymbolNameSuccess response = api.symbolnameOptionGet(X_API_KEY, derivMonth, putOrCall, strikePrice);
+        String optionCode = null;
+        SymbolNameSuccess response = api.symbolnameOptionGet(X_API_KEY, derivMonth, putOrCall, strikePrice, optionCode);
+
+        // TODO: test validations
+    }
+    /**
+     * ミニオプション（限週）銘柄コード取得
+     *
+     * ミニオプション（限週）銘柄コード取得
+     *
+     * @throws Exception
+     *          if the Api call fails
+     */
+    @Test
+    public void symbolnameOptionMiniGetTest() throws Exception {
+        String X_API_KEY = null;
+        Integer derivMonth = null;
+        Integer derivWeekly = null;
+        String putOrCall = null;
+        Integer strikePrice = null;
+        SymbolNameSuccess response = api.symbolnameOptionMiniGet(X_API_KEY, derivMonth, derivWeekly, putOrCall, strikePrice);
 
         // TODO: test validations
     }

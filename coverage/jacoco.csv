@@ -1,0 +1,243 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+kabusapi-client,io.swagger.client,ProgressResponseBody.new ForwardingSource() {...},46,0,4,0,6,0,4,0,2,0
+kabusapi-client,io.swagger.client,ApiResponse,12,15,0,0,4,6,3,2,3,2
+kabusapi-client,io.swagger.client,JSON.SqlDateTypeAdapter,75,3,8,0,21,2,8,1,4,1
+kabusapi-client,io.swagger.client,JSON.LocalDateTypeAdapter,36,14,4,0,11,5,5,2,3,2
+kabusapi-client,io.swagger.client,Pair,6,45,4,4,0,17,4,6,0,6
+kabusapi-client,io.swagger.client,StringUtil,70,0,14,0,12,0,10,0,3,0
+kabusapi-client,io.swagger.client,JSON,113,68,7,1,28,18,13,4,9,4
+kabusapi-client,io.swagger.client,GzipRequestInterceptor.new RequestBody() {...},27,0,0,0,5,0,4,0,4,0
+kabusapi-client,io.swagger.client,GzipRequestInterceptor.new RequestBody() {...},28,0,0,0,7,0,4,0,4,0
+kabusapi-client,io.swagger.client,JSON.DateTypeAdapter,74,3,8,0,23,2,8,1,4,1
+kabusapi-client,io.swagger.client,ApiClient,1195,499,147,61,271,104,143,26,47,18
+kabusapi-client,io.swagger.client,Configuration,6,7,0,0,3,2,2,2,2,2
+kabusapi-client,io.swagger.client,GzipRequestInterceptor,57,0,4,0,13,0,6,0,4,0
+kabusapi-client,io.swagger.client,ApiException,124,0,0,0,29,0,12,0,12,0
+kabusapi-client,io.swagger.client,ProgressResponseBody,37,0,2,0,10,0,6,0,5,0
+kabusapi-client,io.swagger.client,ProgressRequestBody.new ForwardingSink() {...},51,0,4,0,9,0,4,0,2,0
+kabusapi-client,io.swagger.client,ProgressRequestBody,35,0,0,0,11,0,5,0,5,0
+kabusapi-client,io.swagger.client,ApiClient.new HostnameVerifier() {...},8,0,0,0,2,0,2,0,2,0
+kabusapi-client,io.swagger.client,ApiClient.new X509TrustManager() {...},10,0,0,0,4,0,4,0,4,0
+kabusapi-client,io.swagger.client,ApiClient.new Callback() {...},51,0,0,0,10,0,3,0,3,0
+kabusapi-client,io.swagger.client,JSON.OffsetDateTimeTypeAdapter,33,32,3,3,7,11,4,4,2,3
+kabusapi-client,io.swagger.client.api,OrderApi,247,510,28,20,51,109,30,18,6,18
+kabusapi-client,io.swagger.client.api,AuthApi,61,120,5,3,14,28,7,6,3,6
+kabusapi-client,io.swagger.client.api,RegisterApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,RegisterApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,RegisterApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,RegisterApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,RegisterApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,RegisterApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,WalletApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,WalletApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,WalletApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,WalletApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,WalletApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,RegisterApi,181,376,20,14,38,82,22,14,5,14
+kabusapi-client,io.swagger.client.api,RegisterApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,RegisterApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,WalletApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,RegisterApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,RegisterApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,RegisterApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,RegisterApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,RegisterApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,RegisterApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,RegisterApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,AuthApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,AuthApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,AuthApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,AuthApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,AuthApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,WalletApi,463,986,52,36,95,213,54,34,10,34
+kabusapi-client,io.swagger.client.api,OrderApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,OrderApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,OrderApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,OrderApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,OrderApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,OrderApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,OrderApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,InfoApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,InfoApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressRequestBody.ProgressRequestListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+kabusapi-client,io.swagger.client.api,WalletApi.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+kabusapi-client,io.swagger.client.api,WalletApi.new ProgressResponseBody.ProgressListener() {...},16,0,0,0,3,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,WalletApi.new Interceptor() {...},26,0,0,0,5,0,2,0,2,0
+kabusapi-client,io.swagger.client.api,InfoApi,940,1815,119,93,177,387,121,54,15,54
+kabusapi-client,io.swagger.client.model,TokenSuccess,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,RegulationsResponse,133,9,14,0,31,3,18,1,11,1
+kabusapi-client,io.swagger.client.model,RequestSendOrderReverseLimitOrder,238,0,18,0,54,0,29,0,20,0
+kabusapi-client,io.swagger.client.model,MarginPremiumResponseGeneralMargin,220,18,18,0,48,6,28,1,19,1
+kabusapi-client,io.swagger.client.model,UnregisterAllSuccess,80,6,8,0,20,2,11,1,7,1
+kabusapi-client,io.swagger.client.model,RequestToken,75,11,8,0,18,4,10,2,6,2
+kabusapi-client,io.swagger.client.model,RankingByTradeValueResponseRanking,534,0,34,0,118,0,61,0,44,0
+kabusapi-client,io.swagger.client.model,WalletMarginSuccess,186,15,16,0,41,5,24,1,16,1
+kabusapi-client,io.swagger.client.model,SymbolNameSuccess,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,MarginPremiumResponse,152,12,14,0,34,4,20,1,13,1
+kabusapi-client,io.swagger.client.model,SymbolSuccess,866,75,56,0,181,25,104,1,76,1
+kabusapi-client,io.swagger.client.model,BoardSuccessBuy10,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,RankingByMarginResponseRanking,423,0,28,0,94,0,49,0,35,0
+kabusapi-client,io.swagger.client.model,RankingByTradeVolumeResponse,179,0,16,0,42,0,23,0,15,0
+kabusapi-client,io.swagger.client.model,RankingByCategoryResponseRanking,386,0,26,0,86,0,45,0,32,0
+kabusapi-client,io.swagger.client.model,RequestRegisterSymbols,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,RequestUnregister,95,6,10,0,24,2,13,1,8,1
+kabusapi-client,io.swagger.client.model,PositionsSuccess,764,66,50,0,160,22,92,1,67,1
+kabusapi-client,io.swagger.client.model,RankingByTickCountResponse,179,0,16,0,42,0,23,0,15,0
+kabusapi-client,io.swagger.client.model,RequestSendOrderDerivFutureReverseLimitOrder,201,0,16,0,46,0,25,0,17,0
+kabusapi-client,io.swagger.client.model,RequestRegister,95,6,10,0,24,2,13,1,8,1
+kabusapi-client,io.swagger.client.model,ApiSoftLimitResponse,322,27,24,0,69,9,40,1,28,1
+kabusapi-client,io.swagger.client.model,ExchangeResponse,254,21,20,0,55,7,32,1,22,1
+kabusapi-client,io.swagger.client.model,WalletFutureSuccess,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,WalletOptionSuccess,152,12,14,0,34,4,20,1,13,1
+kabusapi-client,io.swagger.client.model,RankingDefaultResponse,167,12,16,0,38,4,22,1,14,1
+kabusapi-client,io.swagger.client.model,BoardSuccessSell10,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,MarginPremiumResponseDayTrade,220,18,18,0,48,6,28,1,19,1
+kabusapi-client,io.swagger.client.model,RankingByMarginResponse,179,0,16,0,42,0,23,0,15,0
+kabusapi-client,io.swagger.client.model,OrderSuccess,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,RankingByCategoryResponse,179,0,16,0,42,0,23,0,15,0
+kabusapi-client,io.swagger.client.model,BoardSuccess,2192,192,134,0,454,64,260,1,193,1
+kabusapi-client,io.swagger.client.model,RegistSuccess,95,6,10,0,24,2,13,1,8,1
+kabusapi-client,io.swagger.client.model,BoardSuccessBuy9,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,ErrorResponse,127,0,12,0,30,0,17,0,11,0
+kabusapi-client,io.swagger.client.model,BoardSuccessBuy8,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessBuy7,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessBuy6,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessBuy5,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessBuy4,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,RankingByTradeVolumeResponseRanking,534,0,34,0,118,0,61,0,44,0
+kabusapi-client,io.swagger.client.model,BoardSuccessBuy3,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessBuy2,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessBuy1,186,15,16,0,41,5,24,1,16,1
+kabusapi-client,io.swagger.client.model,WalletCashSuccess,152,12,14,0,34,4,20,1,13,1
+kabusapi-client,io.swagger.client.model,Positions,127,0,12,0,30,0,17,0,11,0
+kabusapi-client,io.swagger.client.model,RequestSendOrderDerivOption,457,92,36,0,88,34,52,11,34,11
+kabusapi-client,io.swagger.client.model,RegulationsResponseRegulationsInfo,288,24,22,0,62,8,36,1,25,1
+kabusapi-client,io.swagger.client.model,RequestCancelOrder,108,19,12,0,23,7,14,3,8,3
+kabusapi-client,io.swagger.client.model,RankingByTradeValueResponse,179,0,16,0,42,0,23,0,15,0
+kabusapi-client,io.swagger.client.model,OrdersSuccess,779,66,52,0,164,22,94,1,68,1
+kabusapi-client,io.swagger.client.model,OrdersSuccessDetails,526,45,36,0,111,15,64,1,46,1
+kabusapi-client,io.swagger.client.model,RankingDefaultResponseRanking,492,42,34,0,104,14,60,1,43,1
+kabusapi-client,io.swagger.client.model,RequestSendOrderDerivFuture,457,92,36,0,88,34,52,11,34,11
+kabusapi-client,io.swagger.client.model,RankingByTickCountResponseRanking,608,0,38,0,134,0,69,0,50,0
+kabusapi-client,io.swagger.client.model,RequestSendOrder,617,117,46,0,119,43,70,13,47,13
+kabusapi-client,io.swagger.client.model,PrimaryExchangeResponse,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessSell8,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessSell7,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessSell9,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessSell4,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,PositionsDeriv,127,0,12,0,30,0,17,0,11,0
+kabusapi-client,io.swagger.client.model,BoardSuccessSell3,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessSell6,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessSell5,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessSell2,118,9,12,0,27,3,16,1,10,1
+kabusapi-client,io.swagger.client.model,BoardSuccessSell1,186,15,16,0,41,5,24,1,16,1
+kabusapi-client,io.swagger.client.auth,OAuthFlow,44,0,0,0,2,0,1,0,1,0
+kabusapi-client,io.swagger.client.auth,HttpBasicAuth,44,0,8,0,13,0,10,0,6,0
+kabusapi-client,io.swagger.client.auth,OAuth,27,0,2,0,7,0,5,0,4,0
+kabusapi-client,io.swagger.client.auth,ApiKeyAuth,80,0,8,0,22,0,12,0,8,0

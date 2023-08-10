@@ -31,6 +31,22 @@ See original site for detailed documentation.
 
 ## The differences from the original source
 
+### Change SerializedName from KabuSVersion to kabuSVersion in ApiSoftLimitResponse
+
+Change SerializedName KabuSVersion in ApiSoftLimitResponse.
+
+The expected JSON data is...
+
+```json
+{"KabuSVersion":"5.21.0.0"}
+```
+
+The actual JSON data is...
+
+```json
+{"kabuSVersion":"5.21.0.0"}
+```
+
 ### Migration from ThreeTen Backport to java standard Date and Time API
 
 Swagger used ThreeTen Backport (org.threeten.bp), but changed to java standard Date and Time API (java.time).

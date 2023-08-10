@@ -49,7 +49,7 @@ public class ApiSoftLimitResponse {
   @SerializedName("MiniOption")
   private Double miniOption = null;
 
-  @SerializedName("KabuSVersion")
+  @SerializedName("kabuSVersion")
   private String kabuSVersion = null;
 
   public ApiSoftLimitResponse stock(Double stock) {

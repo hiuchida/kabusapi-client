@@ -1544,6 +1544,10 @@ public class InfoApi {
         if (derivMonth == null) {
             throw new ApiException("Missing the required parameter 'derivMonth' when calling symbolnameFutureGet(Async)");
         }
+        // verify the required parameter 'futureCode' is set
+        if (futureCode == null) {
+            throw new ApiException("Missing the required parameter 'futureCode' when calling symbolnameFutureGet(Async)");
+        }
         
         com.squareup.okhttp.Call call = symbolnameFutureGetCall(X_API_KEY, derivMonth, futureCode, progressListener, progressRequestListener);
         return call;

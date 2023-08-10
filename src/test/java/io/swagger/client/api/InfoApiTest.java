@@ -226,7 +226,7 @@ public class InfoApiTest {
     public void symbolnameFutureGetTest() throws Exception {
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         Integer derivMonth = 0;
-        String futureCode = null;
+        String futureCode = "futureCode";
         SymbolNameSuccess response = api.symbolnameFutureGet(X_API_KEY, derivMonth, futureCode);
 
         // TODO: test validations

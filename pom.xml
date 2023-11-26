@@ -5,7 +5,7 @@
   <artifactId>kabusapi-client</artifactId>
   <packaging>jar</packaging>
   <name>kabusapi-client</name>
-  <version>5.22.0</version>
+  <version>5.23.0</version>
   <url>https://github.com/hiuchida/kabusapi-client</url>
   <description>kabusapi-client</description>
   <prerequisites>

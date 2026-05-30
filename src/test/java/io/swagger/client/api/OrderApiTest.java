@@ -47,7 +47,7 @@ public class OrderApiTest {
     @Test
     public void cancelorderPutTest() throws Exception {
         RequestCancelOrder body = new RequestCancelOrder();
-        body.orderId("orderId").password("xxxxxx");
+        body.orderId("orderId");
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         OrderSuccess response = api.cancelorderPut(body, X_API_KEY);
 
@@ -64,7 +64,7 @@ public class OrderApiTest {
     @Test
     public void sendoderFuturePostTest() throws Exception {
         RequestSendOrderDerivFuture body = new RequestSendOrderDerivFuture();
-        body.password("xxxxxx").symbol("symbol").exchange(0).tradeType(0).timeInForce(0);
+        body.symbol("symbol").exchange(0).tradeType(0).timeInForce(0);
         body.side("").qty(0).frontOrderType(0).price(0.0).expireDay(0);
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         OrderSuccess response = api.sendoderFuturePost(body, X_API_KEY);
@@ -82,7 +82,7 @@ public class OrderApiTest {
     @Test
     public void sendorderOptionPostTest() throws Exception {
         RequestSendOrderDerivOption body = new RequestSendOrderDerivOption();
-        body.password("xxxxxx").symbol("symbol").exchange(0).tradeType(0).timeInForce(0);
+        body.symbol("symbol").exchange(0).tradeType(0).timeInForce(0);
         body.side("").qty(0).frontOrderType(0).price(0.0).expireDay(0);
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         OrderSuccess response = api.sendorderOptionPost(body, X_API_KEY);
@@ -100,7 +100,7 @@ public class OrderApiTest {
     @Test
     public void sendorderPostTest() throws Exception {
         RequestSendOrder body = new RequestSendOrder();
-        body.password("xxxxxx").symbol("symbol").exchange(0).securityType(0).side("side");
+        body.symbol("symbol").exchange(0).securityType(0).side("side");
         body.cashMargin(0).delivType(0).accountType(0).qty(0).frontOrderType(0);
         body.price(0.0).expireDay(0);
         String X_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
